@@ -1,4 +1,10 @@
 # React-Calculator
+- Build using React
+- Basic functionalities like
+- Addition
+- Substraction
+- Multiplication
+- Division
 
 # DEMO
 - Try the app: [https://Shivastoic.github.io/React-Calculator]
