@@ -1,0 +1,77 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(250, 255, 177);
+}
+
+.container{
+  width: 350px;
+  height: 470px;
+  border-radius: 14px;
+  background-color: #203454;
+}
+
+#display{
+  width: 100%;
+  border-radius: 7px;
+  height: 110px;
+  margin: 10px;
+  text-align: right;
+  font-size: 3rem;
+  padding-inline: 20px;
+  color: white;
+  background-color: hsl(217, 45%, 77%, .6);
+  border: none;
+}
+
+.cal_display{
+  display: flex;
+}
+
+.cal_body{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  gap: 14px;
+  margin: 20px 10px;
+}
+
+.input_btn{
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  border: none;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.opr{
+  background-color: hsl(44, 98%, 56%);
+  transition: .2s;
+}
+
+.opr:hover{
+  background-color: hsl(44, 98%, 66%);
+}
+
+.opr:active{
+  background-color: hsl(44, 98%, 76%);
+}
+
+.nrl{
+  background-color: hsl(0, 0%, 80%);
+  transition: .2s;
+}
+
+.nrl:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+.nrl:active{
+  background-color: hsl(0, 0%, 100%);
+}
